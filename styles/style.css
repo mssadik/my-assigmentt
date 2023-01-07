@@ -35,28 +35,63 @@
 /* header end  here  */
 
 /* main start here  */
-.section-1s{
+/* my future start here  */
+.my-futures{
     margin: 150px 100px;
     display: flex;
     align-items: center;
-    gap: 25px;
+    gap: 80px;
 }
-.section-1s-right{
+.my-futures-right{
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.section-1s-right-title{
+.my-futures-right-title{
     font-size: 30px;
 }
-.section-1s-right-para{
+.my-futures-right-para{
     color:#757575;
 }
-.section-1s-right ul li{
+.my-futures ul li{
     list-style-type: none;
     color:#757575;
+    margin:5px 0;
 }
 ul li i{
-    
+    color: green;
+    margin-right: 5px;
 }
+/* my future end here  */
+.my-plans{
+    text-align: center;
+    margin: 0 150px;
+    margin-bottom: 120px;
+}
+.my-plans-title{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+.my-plans-cards{
+    display: flex;
+}
+.my-plans-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.my-plans-card img{
+    margin: 0 auto;
+    width: 100px;
+}
+.card-title{
+    font-size: 26px;
+}
+.card-para{
+    color:#757575;
+}
+
+/* my plan start here  */
+/* my plan end here  */
 /* main end here  */
