@@ -132,6 +132,7 @@ ul li i{
 }
 .my-plans-cards{
     display: flex;
+    gap: 30px;
 }
 .my-plans-card{
     display: flex;
