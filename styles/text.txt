@@ -1,0 +1,84 @@
+<!-- footer start here  -->
+    <footer>
+        <section class="footer-section">
+            <div class="footer-section-left">
+                <h2 class="footer-section-left-title">Future</h2>
+                <p class="footer-section-left-para">There are many variations of passages of Lorem Ipsum  available, but the majority have suffered <br> alteration in some  form, by injected humour, or randomised words</p>
+                <p class="contact-email">Email : info@gmail.com</p>
+                <p class="contact-phone">Phone : 01900 00 000</p>
+                
+                <div class="footer-left-icons">
+                    <img src="images/icons/fb.png" alt="facebook icon">
+                    <img src="images/icons/twitter.png" alt="twitter icon">
+                    <img src="images/icons/youtube.png" alt=" youtube icon">
+                </div>
+            </div>
+            <div class="footer-section-right">
+                <h3 class="footer-section-right-title">Subscribe</h3>
+                <input type="text" placeholder="Your Email">
+                <button class="btn">Subscribe</button>
+            </div>
+        </section>
+    </footer>
+    <!-- footer end here  -->
+
+
+
+
+
+    /* footer start here  */
+footer{
+    background-color: rgb(12, 12, 12);
+    color: rgb(251, 244, 244);
+}
+.footer-section{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding: 60px 0;
+}
+.footer-section-left{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.footer-section-left-title{
+    font-size: 35px;
+}
+.footer-section-left-para, .contact-email, .contact-phone{
+    color:#d2c3c3;
+}
+.footer-left-icons{
+    display: flex;
+    align-self: start;
+}
+.footer-left-icons img{
+    padding: 12px;
+    padding-left: 0;
+}
+.footer-section-right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer-section-right-title{
+    font-size: 25px;
+}
+.footer-section-right input{
+    color:#d2c3c3;
+    outline-style: none;
+    padding: 8px;
+    width: 200px;
+    background-color: rgb(10, 2, 2);
+    border-radius: 6px;
+}
+.footer-section-right .btn{
+    align-self: flex-start;
+    padding: 14px;
+    background-color: rgb(233, 223, 223);
+    color : rgb(252, 104, 78);
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+}
+/* footer end here  */
