@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Rowdies', cursive;
 }
 /* common title end here  */
 /* header start here  */
@@ -73,6 +74,49 @@ ul li i{
     margin-right: 5px;
 }
 /* my future end here  */
+/* my team start here  */
+.my-team{
+    text-align: center;
+    margin: 150px 0px;
+}
+.my-team-dec{
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.my-team-title{
+    font-size: 35px;
+}
+.my-team-para{
+    color:#757575;
+}
+.team-cards{
+    margin: 0 150px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.team-card{
+    width: 20%;
+    height: auto;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 6px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.team-card-img{
+    width: 200px;
+    border-radius: 50%;
+}
+.team-card-para{
+    color:#757575;
+}
+/* my team end here  */
 
 
 /* my plan start here  */
